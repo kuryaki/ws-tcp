@@ -1,0 +1,27 @@
+{
+  "name": "ws-tcp",
+  "version": "0.0.1",
+  "description": "Websockets proxy to TCP sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kuryaki/ws-tcp.git"
+  },
+  "keywords": [
+    "Websockets",
+    "TCP"
+  ],
+  "author": "David Roncancio <david@roncancio.me>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kuryaki/ws-tcp/issues"
+  },
+  "dependencies": {
+    "websocket-stream": "~0.3.2",
+    "optimist": "~0.6.0",
+    "ws": "~0.4.31"
+  }
+}
